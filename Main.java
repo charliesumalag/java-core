@@ -1,9 +1,7 @@
 class Main {
     int globalVar = 20;
     public static void main(String[] args) {
-        int age = 0;
-        Main mainClass = new Main();
-        System.out.println(mainClass.globalVar);
+        int age; //creating an variable. variable is an storage of an values.
         age = 10;
         System.out.println("you are " + age + " years old." );
     }
